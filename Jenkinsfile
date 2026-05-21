@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/flask-devops-app"
+        IMAGE_NAME = "shashankbiradar/flask-devops-app"
     }
 
     stages {
