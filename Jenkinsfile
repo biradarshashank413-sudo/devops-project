@@ -13,11 +13,5 @@ pipeline {
                 sh 'docker build -t myapp .'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying...'
-                sh 'docker run -d myapp'
-            }
-        }
     }
 }
